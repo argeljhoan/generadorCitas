@@ -1,0 +1,87 @@
+#root {
+  
+  margin: 0 auto;
+  padding: 10px;
+
+}
+.App{
+
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  font-size: 20px;
+  font-family: 'Oxygen', sans-serif;
+  padding: 10px;
+
+   }
+ 
+   
+.Container{
+ 
+  position: relative;
+  padding: 15px;
+  border-radius: 10px;
+  max-width: 800px;
+  box-shadow: 1px 1px 18px rgb(132, 132, 132);
+  background-color: white;
+}
+.Datingcontainer{
+
+ 
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: center;
+   
+}
+
+.author{
+ 
+  text-align: right;
+  margin: 15px 0;
+  height: auto;
+  
+
+}
+
+h3{
+margin-right: 10px;
+}
+
+.containerButton{
+  
+  display: flex;
+  justify-content: flex-end;
+   border: none;
+}
+
+.button{
+ 
+  border: none;
+  color: white;
+  margin-right: 10px;
+  border-radius: 50px;
+  width: 50px;
+  aspect-ratio: 1;
+  display: flex;
+  justify-content: center;
+  opacity: 0.5;
+  transition: 0.3s;
+
+
+}
+.button:hover{
+opacity: 1;
+}
+
+.quote{
+  
+  font-size: 50px;
+}
+
+
+
+
